@@ -1,0 +1,74 @@
+.navbar #navlogo{
+    width: 200px;
+    padding: 5px;
+
+}
+.navbar ul{
+    list-style-type:none;
+}
+.navbar ul li a{
+    padding: 10px;
+    color: rgb(220, 20, 170);
+    text-decoration: none;
+}
+.navbar{
+    background-color: #f5e4ed;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+.navbar li{
+    display:inline-block;
+
+}
+
+body{
+    margin: 0;
+
+}
+
+
+body{
+    font-size: large;
+    font-family: cursive;
+    font-style: oblique;
+
+    text-align: center;
+    background-image:url("background-with-cute-cakes-with-cute-vector-15058228.jpg");
+    
+}
+h2{
+    color: rgb(111, 12, 136);
+
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+/* .img{
+    width:150px;
+    height: 187px;
+    aspect-ratio: auto;
+} */
+.ImageStyle{
+
+    max-height: 17vw;
+    min-height: 17vw;
+    max-width:17vw;
+    min-width: 17vw;
+    
+}
+   
+  
